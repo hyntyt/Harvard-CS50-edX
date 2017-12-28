@@ -1,0 +1,38 @@
+cd pset7
+killall -9 server
+apache50 stop
+apache50 start ~/workspace/pset7/public
+mysql50 start
+
+cd ~/workspace/pset7
+find . -type d | xargs chmod 711
+find . -name *.php | xargs chmod 640
+chmod 640 config.json
+find . -name *.js | xargs chmod 644
+chmod 644 public/css/*
+chmod 644 public/img/*
+chmod 644 public/fonts/*
+
+
+james/12345
+
+1. register()
+    - completed
+
+2. quote()
+    - completed
+
+3. portfolio
+    - completed
+    
+4. sell()
+    - completed
+    
+5. buy()
+    - completed
+
+6. history()
+    - completed
+
+7. extra()
+    - completed the deposit function

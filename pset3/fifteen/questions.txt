@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. Besides 4x4, the game's Framework allows for games of 3x3 (DIM_MIN), 5x5, 6x6, 7x7, 8x8, and 9x9 (DIM_MAX). Or dxfd where d = [3,4,5,6,7,8,9].
+1. The game's board is represented by an array data structure of size NxN. 
+2. The  greet() function is called at line 149 is used to greet the end-user at game's start.
+3. I need to apparently implement the init(), draw(), move() and won() functions.

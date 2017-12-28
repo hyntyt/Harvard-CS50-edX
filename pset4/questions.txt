@@ -1,0 +1,64 @@
+/**
+ * questions.txt
+ *
+ * Computer Science 50
+ * Problem Set 4
+ *
+ * Questions for pset4.
+ * 
+ * James Dreher
+ * james.d.dreher@gmail.com
+ */
+
+00. How many different colors does each format support?
+    - The BMP format supports 4 billion+ colours (32-bits)
+    - The GIF format supports 256 colours (8-bits)
+    - The JPG format supports 16 million+ colours (24-bits, 8 for each of RGB)
+    - The PNG format supports 16 million+ colours (24-bits, 8 for each of RGB)
+01. Which of the formats supports animation?
+    - The GIF format supports animation
+02. What’s the difference between lossy and lossless compression?
+    - Lossy compression (JPEG) reduces the image's filezie but also reduces the quality of the image
+    - Lossless compression (GIF, SVG, PNG) reduces filesize without impeding the quality of the image
+03. Which of these formats is lossy-compressed?
+    - JPEG images are lossy-compressed
+04. What happens, technically speaking, when a file is deleted on a FAT file system?
+    - The first char in its memory location is changed to signify that the file as been deleted
+    - The file's clusters are moved/listed as free
+05. What can someone like you do to ensure (with high probability) that files you delete cannot be recovered?
+    - We can overwrite the data all the way down to the 1s and 0s randomly, not just the first char
+06. What’s stdint.h?
+    - A header file in the standard C library, which defines integers and their widths, along with their respective macros
+07. What’s the point of using uint8_t, uint32_t, int32_t, and uint16_t in a program?
+    - Allows us to set signed/unsigned variables of a specific length
+    - Particularly useful when working with memory allocation and modification
+08. How many bytes is a BYTE, a DWORD, a LONG, and a WORD, respectively?
+    - BYTE has 8 bytes
+    - DWORD has 32 bytes
+    - LONG has 32 bytes
+    - WORD has 16 bytes
+09. What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be? (Leading bytes used to identify file formats (with high probability) are generally called "magic numbers.)"
+    - ASCII: BM
+    - Decimal: 16973
+    - Hexadecimal: 0x424d
+10. What’s the difference between bfSize and biSize?
+    - bfSize is the total size of the file in bytes (Per MSDN: The size, in bytes, of the bitmap file.)
+    - biSize is the size of the information header in bytes (Per MSDN: The number of bytes required by the structure.)
+11. What does it mean if biHeight is negative?
+    - Per MDSN, if biHeight is negative, indicating a top-down DIB, biCompression must be either BI_RGB or BI_BITFIELDS. Top-down DIBs cannot be compressed.
+    - The BMP files is top-down so the origin is at the upper-left corner
+12. What field in BITMAPINFOHEADER specifies the BMP’s color depth (i.e., bits per pixel)?
+    - From MDSN, the biBitCount field specifies the colour depth by the number of bits-per-pixel.
+13. Why might fopen return NULL in copy.c:37?
+    - If we don't have the proper write privleges for that location in memory, or if the file does not exist.
+14. Why is the third argument to fread always 1 in our code?
+    - Becuase we are passing it an object, or a struct, which itslef can actually contain more within it
+15. What value does copy.c:70 assign padding if bi.biWidth is 3?
+    - 3, since the bytes per pixel and the scanline are both 3 (3*3=9) and it needs to be a multiple of 4 (+3=12)
+16. What does fseek do?
+    - Moves to a particular point in a file, rather than just the beginning
+17. What is SEEK_CUR?
+    - Per the GNU C Library, This is an integer constant which, when used as the whence argument to the fseek or fseeko function, specifies that the offset provided is relative to the current file position.
+    - SEEK_SET is similar, and used in resize.c for pset4, in that is lets you set the offset to a specific point in the file 
+18. Whodunit?
+    - Rick Rolled again I see, Rick Astley thanks to Google reverse image search.
