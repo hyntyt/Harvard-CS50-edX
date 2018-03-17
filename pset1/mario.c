@@ -2,7 +2,6 @@
 * mario.c
 *
 * James Dreher
-* james.d.dreher@gmail.com
 *
 * Program that recreates the half-pyramid from Super 
 * Mario Bros. using a user-inputed Integer. 
