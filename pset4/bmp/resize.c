@@ -7,7 +7,6 @@
  * Copies a BMP piece by piece, resizing it based on command-line input.
  * 
  * James Dreher
- * james.d.dreher@gmail.com
  */
        
 #include <stdio.h>
