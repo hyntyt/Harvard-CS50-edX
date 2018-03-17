@@ -5,7 +5,6 @@
 // Problem Set 6
 //
 // James Dreher
-// james.d.dreher@gmail.com
 //
 //make server
 // check50 2015.fall.pset6.server2 server.c
