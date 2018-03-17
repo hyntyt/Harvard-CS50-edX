@@ -7,7 +7,6 @@
  * Copies a BMP piece by piece, just because. This version will reduce/elimate the red pixelation to show the image.
  * 
  * James Dreher
- *  james.d.dreher@gmail.com
  */
        
 #include <stdio.h>
