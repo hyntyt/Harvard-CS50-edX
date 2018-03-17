@@ -7,7 +7,6 @@
  * Questions for pset4.
  * 
  * James Dreher
- * james.d.dreher@gmail.com
  */
 
 00. How many different colors does each format support?
