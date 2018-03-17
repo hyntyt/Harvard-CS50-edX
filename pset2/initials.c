@@ -2,7 +2,6 @@
  * initials.c
  *
  * James Dreher
- * james.d.dreher@gmail.com
  *
  * Program that determines a user's initials, based on the name they input. 
  */
