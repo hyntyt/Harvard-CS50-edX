@@ -1,6 +1,5 @@
 CS50 - Problem Set 5 (pset5)
 James Dreher
-james.d.dreher@gmail.com
 
 0.  What is pneumonoultramicroscopicsilicovolcanoconiosis?
 -   According to Wikipedia, it is a lung disease that is otherwise known as silicosis. 
