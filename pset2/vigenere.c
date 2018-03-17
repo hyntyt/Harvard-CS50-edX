@@ -2,7 +2,6 @@
  * vigenere.c
  *
  * James Dreher
- * james.d.dreher@gmail.com
  *
  * Program that simulates the Vigenere cipher, encrypting
  * a plaintext value based on a keyword passed by command-line.
