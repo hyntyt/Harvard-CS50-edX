@@ -2,7 +2,6 @@
  * greedy.c
  *
  * James Dreher
- * james.d.dreher@gmail.com
  *
  * Program that simulates a cash register, in that it 
  * returns the correct amount of change based 
