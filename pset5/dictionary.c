@@ -7,7 +7,6 @@
  * Implements a dictionary's functionality.
  * 
  * James Dreher
- * james.d.dreher@gmail.com
  * 
  * TEST ARGS
  * compile: make speller
