@@ -7,7 +7,6 @@
  * Recovers JPEGs from a forensic image.
  * 
  * James Dreher
- * james.d.dreher@gmail.com
  */
 
 #include <stdio.h>
