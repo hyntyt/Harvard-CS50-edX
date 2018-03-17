@@ -2,7 +2,6 @@
  * caesar.c
  *
  * James Dreher
- * james.d.dreher@gmail.com
  *
  * Program that outputs cryptotext based on plaintext input from a user.
  */
